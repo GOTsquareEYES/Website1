@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="icon" type="image/png" href="images/rgamt.png">
+    </head>
+<body>
+        <header>
+            <h1>Rocks, Gems and Minerals</h1>
+            <img src="images/rgamt.png" alt="Logo" title="Rocks, Gems and Minerals" class="logo">
+        </header>
+    <div class="sticky ">
+        <nav class="flex">
+            <a href="Home.html">Home</a>
+            <a href="Rocks.html">Rocks</a>
+            <a href="Gems.html">Gems</a>
+            <a href="Minerals.html">Minerals</a>
+            <a href="Store.html">Store</a>
+            <a href="ContactUs.html">Contact Us</a>
+        </nav>
+    </div>
+    <div class="container">
+        <main>
+            <div class="section">
+                <form action="mailto:none.com" method="POST">
+                    <fieldset>
+                        <legend>Personal Details</legend>
+                        <div class="personal">
+                            <label>First Name:&nbsp;<span class="req">*</span></label>
+                            <br>
+                            <input type="text" required>
+                            <br>
+                            <label>Last Name:&nbsp;<span class="req">*</span></label>
+                            <br>
+                            <input type="text" required>
+                            <br>
+                            <label>Email:&nbsp;<span class="req">*</span></label>
+                            <br>
+                            <input type="email" required>
+                            <br>
+                            <label>Phone:&nbsp;</label>
+                            <br>
+                            <input type="number">
+                            <br>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <Legend>Details of the Issue</Legend>
+                        <div class="left">
+                            <h3>Please Descibe the Issue:</h3>
+                            <select>
+                                <option>Select...</option>
+                                <option>Broken Link</option>
+                                <option>Broken Image</option>
+                                <option>Incorrect Information</option>
+                                <option>General Feedback</option>
+                                <option>Other...</option>
+                            </select>
+                            <br>
+                            <textarea placeholder="Additional Information" required></textarea>
+                        </div>
+                        <div class="right">
+                            <h3>How did you find us?</h3>
+                            <input type="radio" name="finder" value="Google" checked>Google
+                            <input type="radio" name="finder" value="Referral" checked>Referral
+                            <input type="radio" name="finder" value="Another Site" checked>Another Site
+                            <input type="radio" name="finder" value="Just Surfed In" checked>Just Surfed In
+                            <input type="radio" name="finder" value="Other" checked>Other
+                            <br>
+                            <input type="text" placeholder="Please Specify">
+                        </div>
+                    </fieldset>
+                    <br>
+                    <div class="btns">
+                        <input type="submit">
+                        <input type="reset">
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+        <footer>
+            <h3>All rights reserved to their rightful owners</h3>
+        </footer>
+</body>
+</html>
